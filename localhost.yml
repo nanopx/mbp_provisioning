@@ -55,7 +55,7 @@
       - { name: dash }
       - { name: dropbox }
       - { name: firefox }
-      - { name: github }
+      - { name: github-desktop }
       - { name: google-chrome }
       - { name: google-japanese-ime }
       - { name: gyazo }
