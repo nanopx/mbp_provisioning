@@ -5,9 +5,7 @@ https://openssl.org/
 This formula is keg-only.
 Apple has deprecated use of OpenSSL in favor of its own TLS and crypto libraries
 
-/usr/local/Cellar/openssl/1.0.1f (429 files, 15M)
-  Poured from bottle
-/usr/local/Cellar/openssl/1.0.2d_1 (464 files, 18M) *
+/usr/local/Cellar/openssl/1.0.2d_1 (464 files, 17M) *
   Poured from bottle
 From: https://github.com/Homebrew/homebrew/blob/master/Library/Formula/openssl.rb
 ==> Dependencies

@@ -38,20 +38,17 @@
       - { name: memcached }
       - { name: zeromq }
       - { name: imagemagick }
-      - { name: macvim, options: 'override-system-vim', 'with-lua', 'with-cscope' }
       - { name: ghq }
       - { name: php56 }
       - { name: php56-xdebug }
       - { name: phpenv }
       - { name: automake }
       - { name: pkg-config }
-      - { name: phantomjs }
 
     homebrew_cask_packages:
       - { name: adobe-reader }
       - { name: android-studio }
-      - { name: base }
-      - { name: cyberduck }
+      - { name: flux }
       - { name: dash }
       - { name: dropbox }
       - { name: firefox }

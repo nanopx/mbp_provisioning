@@ -35,6 +35,8 @@ brew install python
 brew install ansible
 ```
 
+- このリポジトリをclone
+
 - 環境構築
 ```bash
 HOMEBREW_CASK_OPTS="--appdir=/Applications" ansible-playbook -i hosts -vv localhost.yml
@@ -44,4 +46,9 @@ homesick clone nanopx/dotfiles
 ```
 ```bash
 homesick symlink dotfiles
+```
+
+- Caskの一時データなどを削除
+```bash
+brew cask cleanup
 ```
