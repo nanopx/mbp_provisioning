@@ -46,6 +46,7 @@
       - { name: pkg-config }
 
     homebrew_cask_packages:
+      - { name: atom }
       - { name: adobe-reader }
       - { name: android-studio }
       - { name: flux }
