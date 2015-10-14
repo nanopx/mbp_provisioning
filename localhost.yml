@@ -24,7 +24,7 @@
       - { name: zsh-completions }
       - { name: wget }
       - { name: curl }
-      - { name: nkf }
+      - { name: jq }
       - { name: peco }
       - { name: rbenv }
       - { name: ruby-build }
@@ -74,6 +74,8 @@
       - { name: sourcetree }
       - { name: vagrant }
       - { name: virtualbox }
+      - { name: boot2docker }
+      - { name: the-unarchiver }
       - { name: 1password }
     gem_packages:
       - { name: homesick }
