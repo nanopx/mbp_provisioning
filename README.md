@@ -41,6 +41,10 @@ brew install ansible
 ```bash
 HOMEBREW_CASK_OPTS="--appdir=/Applications" ansible-playbook -i hosts -vv localhost.yml
 ```
+
+- homesickでdotfilesを使う
+  - `homesick -v` とかで怒られる場合は `$ source ~./zshrc`
+
 ```bash
 homesick clone nanopx/dotfiles
 ```
